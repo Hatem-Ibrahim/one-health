@@ -1,0 +1,659 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+/* *********    الاكواد الثابته معايا ف كل الموقع ********** */
+:root{
+    --green : #00D9A5;
+
+    --gray : #b1b4b2 ;
+
+    --dark_gray : #474747;
+}
+input[type="submit"] , button{
+    width: 170px;
+    height: 42px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: var(--green);
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+/* ********** start nav ********** */
+.hatem_ibrahim {
+    position: relative;
+}
+nav div {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+.phone-alt{
+    padding-right: 18px;
+    border-right: 2px solid #EEE;
+}
+.envelope {
+    position: absolute;
+    top: 15px;
+    left: 22%;
+}
+nav div i {
+    margin-right: 10px;
+    color:var(--green);
+}
+nav ul {
+    list-style: none;
+    position: absolute;
+    right: 100px;
+    display: flex;
+}
+nav ul li a {
+    margin-left: 30px;
+    color:var(--gray) ;
+}
+nav ul li a:hover {
+    color: var(--dark_gray);
+}
+.line {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color:var(--gray);
+}
+nav > label {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+nav > label span {
+    color: var(--green);
+}
+.search {
+    border: 2px solid var(--gray) ;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: absolute;
+    top: 65px;
+    left: 250px;
+    padding-left: 5px;
+}
+.search i {
+    margin: 11px;
+}
+.search input {
+    width: 200px;
+    height: 39px;
+    border: none;
+    border-left: 2px solid var(--gray);
+    outline: none;
+    padding-left: 20px;
+}
+.last_ul_nav {
+    top: 63px;
+    right: 280px;
+}
+/* *******الكود ال تحت السطر دا مش عارف اظبه *********************/
+.active :visited {
+    color: var(--green);
+}
+nav input[type="submit"]{
+    position: absolute;
+    top: 65px;
+    right: 90px;
+}
+/* ********** start header *********** */
+header {
+    height: 700px;
+    background: url(../images/background_sec.jpg) no-repeat center center;
+    background-size: cover ;
+    position: relative;
+    top: 125px;
+    color: #FFF;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 100%;
+}
+header span {
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    letter-spacing: 3px;
+    font-size: 21px;
+}
+header h1 {
+    position: absolute;
+    top: 32%;
+    left: 36%;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+header input[type="submit"] {
+    position: absolute;
+    top: 52%;
+    left: 44%;
+    width: 160px;
+}
+header input[type="submit"]:hover {
+    background-color: var(--dark_gray);
+}
+/* ********** end  header ********** */
+/* ********** start section doc **********  */
+.section_doc {
+    background-color:#E7E7E7;
+    height: 560px;
+    color: #000;
+    position: relative; 
+}
+.section_doc > :nth-child(1) {
+    width: 40%;
+    margin-left: 137px;
+}
+.section_doc> :nth-child(1) h2 {
+    position: absolute;
+    top: 120px;
+    width: 350px;
+    font-size: 30px;
+}
+.section_doc> :nth-child(1) p {
+    position: absolute;
+    top: 40%;
+    font-size: 18px;
+    width: 39%;
+}
+.section_doc> :nth-child(1) input[type="submit"] {
+    position: absolute;
+    top: 80%;
+    width: 140px;
+}
+.section_doc > :nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.section_doc img {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 84px;
+    right: 150px;
+}
+.section_doc > :nth-child(3) {
+    position: absolute;
+    top: -40px;
+    display: flex;
+}
+.div_one {
+    width: 250px;
+    height: 100px;
+    background-color: #FEFEFE;
+    margin-left: 130px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+.div_one div {
+    width: 60px;
+    height: 60px;
+    color: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_one i {
+    font-size: 30px;
+}
+.div_one label {
+    font-size: 19px;
+    width: 130px;
+    height: 40px;
+}   
+.comments {
+    background-color: #4E5AFD;
+}
+.shield-virus {
+    background-color: #00D9A5;
+}
+.shopping-bag {
+    background-color:  #FE3D85;
+}
+/* ********** end section doc **********  */
+/*  ********** start section our doctors ********** */
+.our_doctors {
+    width: 100%;
+    height: 700px;
+    background-color: #FEFEFE;
+    position: relative;
+}
+.our_doctors > :nth-child(1) {
+    position: absolute;
+    top: 40px;
+    left: 41%;
+    font-size: 45px;
+}
+.doctors {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 180px;
+    width: 100%;   
+    height: 280px;
+}
+.card {
+    width: 20%;
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+}
+.card:hover .div_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 280px;
+    background-color:#00000065;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-left: 6px;
+}
+.card img {
+    width: 95%;
+    height: 280px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-left: 5px;
+}
+.card a {
+    color:var(--dark_gray);
+}
+.card_icon{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 140px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.card:hover .card_icon {
+    bottom: 140px;
+    transition: 1s ;
+    -webkit-transition: 1s ;
+    -moz-transition: 1s ;
+    -ms-transition: 1s ;
+    -o-transition: 1s ;
+    transition-timing-function: ease-in-out;
+}
+.card_icon:hover {
+    background-color: var(--dark_gray);
+}
+.card_icon:hover a {
+    color:#fff;
+}
+.card_icon1 {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.card:hover .card_icon1 {
+    bottom: 140px;
+    transition: 1s ;
+    -webkit-transition: 1s ;
+    -moz-transition: 1s ;
+    -ms-transition: 1s ;
+    -o-transition: 1s ;
+}
+.card_icon1:hover {
+    background-color: var(--dark_gray);
+}
+.card_icon1:hover a {
+    color:#fff;
+}
+.div_label {
+    width: 95%;
+    padding: 24px;
+    line-height: 25px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-top: -4px;
+    margin-left: 6px;
+}
+.div_label label {
+    font-size: 23px;
+    height: 20px;
+}
+.our_doctors button{
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    width: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.our_doctors button i {
+    margin: 14px;
+    font-size: 14px;
+}
+/*  ********** start section Latest News ********** */
+.latest_news {
+    width: 100%;
+    height: 650px;
+    background-color: #F5F8F6;
+    position: relative; 
+}
+.latest_news h2{
+    position: absolute;
+    top: 40px;
+    left: 41%;
+    font-size: 45px;
+}
+.news {
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card_news{
+    width: 20%;
+    height: 350px;
+    position: relative;
+}
+.card_news img {
+    width: 100%;
+    height: 60%;
+}
+.covid {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 85px;
+    height: 35px;
+    background-color: #4E5AFD;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.div_news {
+    background-color: #fff;
+    height: 120px;
+    margin-top: -4px;
+    box-shadow: 0px 0px 10px 0px #000;
+    padding: 20px;
+    position: relative;
+}
+.label_1{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.div_img_roger {
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+.div_roger{
+    position: absolute;
+    top: 83px;
+    left: 55px;
+    font-size: 13px;
+}
+.latest_news input {
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    width: 130px;
+    height: 42px;
+}
+/*  ********** End  Latest News ********** */
+/* ********** Start section form  **********  */
+.sec_form {
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.sec_form h2 {
+    position: absolute;
+    font-size: 40px;
+    top: 20px;
+    left: 35%;
+}
+.sec_form form {
+    position: absolute;
+    top: 140px;
+    left: 20%;
+    width: 60%;
+}
+.sec_form form fieldset {
+    border: none;
+}
+.sec_form form input , textarea {
+    margin: 10px;
+    margin-left: 20px;
+    padding: 13px;
+    width: 354px;
+    outline: none;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.sec_form form input[type="number"] , textarea {
+    width: 95%;
+    resize: none;
+}
+.sec_form form input[type="submit"] {
+    width: 145px;
+    border: none;
+}
+/* .sec_form form input[type="reset"] {
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--green);
+} */
+/*  ********** End  section form********** */
+/* ********** Start section Phone  **********  */
+.section_phone {
+    width: 100%;
+    height: 450px;
+    background-color: var(--green);
+    position: relative;
+}
+.div_mobile {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 42px;
+    left: 20px;
+}
+.div_text {
+    width: 700px;
+    font-size: 40px;;
+    color: #fff;
+    position: absolute;
+    top: 130px;
+    left: 40%;
+}
+.section_phone > :nth-child(3) img {
+    position: absolute;
+    top: 194px;
+    left: 40%;
+    width: 183px;
+}
+.section_phone > :nth-child(4) img {
+    position: absolute;
+    top: 257px;
+    left: 56%;
+    width: 192px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/*  ********** End Section Phone ********** */
+/* ********** Start footer  **********  */
+footer {
+    background-color: #2D3B38;
+    height: 500px;
+    color: #fff;
+    position: relative;
+}
+.div_footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+.div_footer div {
+    width: 210px;
+    height: 250px;
+}
+.div_footer div ul {
+    list-style: none;
+    margin-left: -39px;
+}
+.div_footer div ul li {
+    margin-top: 30px;
+}
+.div_footer div ul li a {
+    color: var(--gray);
+}
+.div_footer ul li:hover a  {
+    color: #fff;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.social_media {
+    width: 200px;
+    position: absolute;
+    right: 190px;
+    bottom: 100px;
+}
+.social_media > :nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+.social_media> :nth-child(2) div {
+    width: 35px;
+    height: 35px;
+    background-color: #26312F;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_media> :nth-child(2) div:hover {
+    background-color: var(--green);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.social_media div a {
+    color: #fff;
+}
+.footer_line {
+    height: 1px;
+    width: 79%;
+    background-color: var(--gray);
+    position: absolute;
+    bottom: 70px;
+    left: 125px;
+}
+footer > :nth-last-child(2) {
+    position: absolute;
+    bottom: 35px;
+    left: 125px;
+}
+footer > :nth-last-child(2) span {
+    color: var(--green);
+}
+.design_by {
+    position: absolute;
+    bottom: 35px;
+    right: 175px;
+}
